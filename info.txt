@@ -1,0 +1,26 @@
+
+Make a two page app with routing that tries to show some details about a public git repository (no authentication required).
+First page shows 2 input fields where you type username and repository name (or just one input that takes {username}/{repositoryname}) and a submit button that takes you to the second page.
+Second page shows all the files in the repository as a list of absolute file paths.
+If time permits, the contents of the README.md file (if it exists) can be shown below the list.
+
+
+Manav Mishra4:04 PM
+Make a two page app with routing that tries to show some details about a public git repository (no authentication required).
+First page shows 2 input fields where you type username and repository name (or just one input that takes {username}/{repositoryname}) and a submit button that takes you to the second page.
+Second page shows all the files in the repository as a list of absolute file paths.
+If time permits, the contents of the README.md file (if it exists) can be shown below the list.
+Manav Mishra4:06 PM
+a.js
+b/c.js
+Manav Mishra4:09 PM
+https://github.com/AniketOnWeb/ShufflStories
+https://docs.github.com/en/rest
+Manav Mishra4:34 PM
+https://reactrouter.com/web/guides/quick-start/1st-example-basic-routing
+Manav Mishra4:54 PM
+https://api.github.com/repos/${userName}/${repoName}/git/trees/master?recursive=1
+Manav Mishra4:56 PM
+manav-m
+Githubbish
+https://api.github.com/repos/manav-m/Githubbish/git/trees/master?recursive=1
